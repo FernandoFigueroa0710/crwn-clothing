@@ -47,8 +47,8 @@ constructor() {
     return(
       <div className="directory-menu">
         {
-          this.state.categories.map(({id,title, imageUrl, size})=>(
-            <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+          this.state.categories.map(({id,...otherSectionProps})=>(
+            <MenuItem key={id} {...otherSectionProps} />
           ))
         }
       </div>
