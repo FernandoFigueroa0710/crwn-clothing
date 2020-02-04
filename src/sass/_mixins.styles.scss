@@ -1,0 +1,6 @@
+//Mix in for input labels
+@mixin shrinkLabel {
+  top: -14px;
+  font-size: 12px;
+  color: $main-color
+}
