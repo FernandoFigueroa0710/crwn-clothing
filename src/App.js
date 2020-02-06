@@ -5,7 +5,10 @@ import SignInAndSignupPage from "./components/pages/loginRegister/signIn-signUp-
 import HomePage from "./components/pages/homepage/homePage.component";
 import ShopPage from "./components/pages/shop/shop.component";
 
-import { auth } from "./components/utils/firebase.utils";
+import {
+  auth,
+  createUserProfileDocument
+} from "./components/utils/firebase.utils";
 
 class App extends Component {
   constructor() {
@@ -17,8 +20,11 @@ class App extends Component {
   unSubscribeFromAuth = null;
 
   componentDidMount() {
-    auth().onAuthStateChanged(user => {
-      this.setState({ currentUser: user });
+    // auth().onAuthStateChanged(user => {
+    //   this.setState({ currentUser: user });
+    // });
+    this.unSubscribeFromAuth = auth().onAuthStateChanged(async user => {
+      createUserProfileDocument(user);
     });
   }
 
