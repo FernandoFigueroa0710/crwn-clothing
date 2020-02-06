@@ -1,11 +1,15 @@
 $main-color: #000;
 $sub-color: #333;
 
-body{
-  font-family: 'Open Sans Condensed', sans-serif;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
   padding: 20px 60px;
 }
-a{
+a {
   text-decoration: none;
   color: #333;
 }
