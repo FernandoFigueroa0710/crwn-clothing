@@ -1,0 +1,18 @@
+{
+	"terminal.integrated.shell.windows": "C:\\Users\\fernando.a.figueroa\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"atomKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+			"savePath": "/dist/css"
+		}
+	],
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2
+}
