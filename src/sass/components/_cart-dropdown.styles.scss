@@ -1,20 +1,23 @@
 .cart-dropdown {
 	position: absolute;
-	width: 230px;
-	height: 275px;
+	width: 240px;
+	height: 340px;
+	display: flex;
 	flex-direction: column;
 	padding: 20px;
 	border: 1px solid $main-color;
 	background-color: #ffffff;
-	top: 80px;
-	right: 0;
+	top: 90px;
+	right: 40px;
 	z-index: 5;
+
 	.cart-items {
-		height: 245px;
+		height: 240px;
 		display: flex;
 		flex-direction: column;
-		overflow-y: hidden;
+		overflow-y: scroll;
 	}
+
 	button {
 		margin-top: auto;
 	}
