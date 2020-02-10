@@ -5,6 +5,8 @@ import { ReactComponent as Logo } from "../../assets/crown.svg";
 
 import { auth } from "../utils/firebase.utils";
 
+import CartIcon from "../cart-icon/cart-icon.component";
+
 const Header = ({ currentUser }) => (
 	<div className="header">
 		<Link className="logo-container" to="/">
@@ -26,6 +28,7 @@ const Header = ({ currentUser }) => (
 					SIGN IN
 				</Link>
 			)}
+			<CartIcon />
 		</div>
 	</div>
 );
