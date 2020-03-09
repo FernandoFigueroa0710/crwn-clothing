@@ -13,7 +13,7 @@ const ShopPage = ({ match }) => {
 				component={CollectionsOverview}
 			/>
 			<Route
-				path={`${match.path}/:categoryId`}
+				path={`${match.path}/:collectionId`}
 				component={CategoryPage}
 			/>
 		</div>
