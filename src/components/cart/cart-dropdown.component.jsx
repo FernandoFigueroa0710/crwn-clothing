@@ -5,17 +5,21 @@ import CartItem from "./cart-item.component";
 import CustomButton from "../utils/custom-button.component";
 
 const CartDropdown = ({ cartItems }) => (
-	<div className="cart-dropdown">
-		<div className="cart-items">
-			{cartItems.map(cartItem => (
-				<CartItem key={cartItem.id} item={cartItem} />
-			))}
-		</div>
+  <div className="cart-dropdown">
+    <div className="cart-items">
+      {cartItems.length ? (
+        cartItems.map(cartItem => (
+          <CartItem key={cartItem.id} item={cartItem} />
+        ))
+      ) : (
+        <span className="empty-message">Your cart is empty</span>
+      )}
+    </div>
 
-		<CustomButton>GO TO CHECKOUT</CustomButton>
-	</div>
+    <CustomButton>GO TO CHECKOUT</CustomButton>
+  </div>
 );
 const mapStateToProps = ({ cart: { cartItems } }) => ({
-	cartItems
+  cartItems
 });
 export default connect(mapStateToProps)(CartDropdown);
