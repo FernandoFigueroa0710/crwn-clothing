@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import FormInput from "../../utils/form-input.component";
+import FormInput from "../../input-form/form-input.component";
 import CustomButton from "../../custom-button/custom-button.component";
 
 import { auth, createUserProfileDocument } from "../../utils/firebase.utils";
@@ -24,7 +24,7 @@ class SignUp extends Component {
 			return;
 		}
 		try {
-			const { user } = await auth().createUserWithEmailAndPassword(
+			const { user } = await auth.createUserWithEmailAndPassword(
 				email,
 				password
 			);
