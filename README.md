@@ -19,6 +19,15 @@
 - [Firebase](https://firebase.google.com/)
 - [SASS](https://sass-lang.com/)
 
+---
+
+<img width="425" alt="Site Screenshot" src="src/assets/screenshots/Mens.png">
+<img width="425" alt="Site Screenshot" src="src/assets/screenshots/Womens.png">
+<img width="425" alt="Site Screenshot" src="src/assets/screenshots/Hats.png">
+<img width="425" alt="Site Screenshot" src="src/assets/screenshots/Jackets.png">
+<img width="425" alt="Site Screenshot" src="src/assets/screenshots/Sneakers.png">
+<img width="425" alt="Site Screenshot" src="src/assets/screenshots/Stripe.png">
+
 <img width="350" alt="Site Screenshot" src="src/assets/screenshots/Mens.png">
 <img width="350" alt="Site Screenshot" src="src/assets/screenshots/Womens.png">
 <img width="350" alt="Site Screenshot" src="src/assets/screenshots/Sneakers.png">
