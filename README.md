@@ -2,14 +2,9 @@
 
 ## Crwn Clothing is a coll cut clean store design full featured with the coolest clothes!
 
-<img width="750" alt="Site Screenshot" src="src/assets/screenshots/SignInSignUp.png"> | <img width="750" alt="Landing Page" src="src/assets/screenshots/LandingPage.png">
-
-<img width="500" height="250" alt="Site Screenshot" src="src/assets/screenshots/Mens.png"> |
-<img width="500" height="250" alt="Site Screenshot" src="src/assets/screenshots/Womens.png"> |
-<img width="500" height="250" alt="Site Screenshot" src="src/assets/screenshots/Hats.png"> |
-<img width="500" height="250" alt="Site Screenshot" src="src/assets/screenshots/Jackets.png"> |
-<img width="500" height="250" alt="Site Screenshot" src="src/assets/screenshots/Sneakers.png"> |
-<img width="500" alt="Site Screenshot" src="src/assets/screenshots/Stripe.png"> |
+<p float="left">
+<img width="350" alt="Site Screenshot" src="src/assets/screenshots/SignInSignUp.png"> <img width="350" alt="Landing Page" src="src/assets/screenshots/LandingPage.png">
+</p>
 
 ### This store is a full stack website set up with the following libraries:
 
@@ -24,6 +19,10 @@
 - [Firebase](https://firebase.google.com/)
 - [SASS](https://sass-lang.com/)
 
+<img width="350" alt="Site Screenshot" src="src/assets/screenshots/Mens.png">
+<img width="350" alt="Site Screenshot" src="src/assets/screenshots/Womens.png">
+<img width="350" alt="Site Screenshot" src="src/assets/screenshots/Sneakers.png">
+
 ### Some of the things I worked on / learned on this project:
 
 - Implementation of a register / login / google authentication with Firebase
@@ -35,9 +34,18 @@
 - Implementation of Styled Components Library in order to keep components' styles independent and more flexible
 - Implemented SASS library to manage styles (Deleted when implemented Styled Components)
 
+<p>
+<img width="350" alt="Site Screenshot" src="src/assets/screenshots/Hats.png">
+<img width="350" alt="Site Screenshot" src="src/assets/screenshots/Jackets.png">
+</p>
+
 ### To access this repository:
 
 - Fork this repo to your account
 - Clone it to your local machine
 - Run `yarn` or `npm i` to install packages
 - Open your browser in `http:localhost:3000`
+
+<p>
+<img width="1000" alt="Site Screenshot" src="src/assets/screenshots/Stripe.png">
+</p>
