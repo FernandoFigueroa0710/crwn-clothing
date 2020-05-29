@@ -1,6 +1,6 @@
 # CRWN Clothing Brand
 
-## Crwn Clothing is a coll cut clean store design full featured with the coolest clothes!
+## Crwn Clothing is a cool cut clean store design full featured with the coolest clothes!
 
 <p align="center">
 <img width="350" alt="Site Screenshot" src="src/assets/screenshots/SignInSignUp.png"> <img width="350" alt="Landing Page" src="src/assets/screenshots/LandingPage.png">
@@ -51,5 +51,5 @@
 - Open your browser in `http:localhost:3000`
 
 <p align="center">
-<img width="1000" alt="Site Screenshot" src="src/assets/screenshots/Stripe.png">
+<img width="850" alt="Site Screenshot" src="src/assets/screenshots/Stripe.png">
 </p>
